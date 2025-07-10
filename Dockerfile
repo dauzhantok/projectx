@@ -1,7 +1,6 @@
 FROM golang:1.24.5
  
 WORKDIR /app
- 
 COPY go.mod ./
 RUN go mod download
  
