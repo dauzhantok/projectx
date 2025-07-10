@@ -14,7 +14,7 @@ jobs:
 
     steps: 
     - name: Pull Docker image
-      run: sudo docker pull dauzhan01/projectx:lates
+      run: sudo docker pull dauzhan01/projectx:latest
     - name: Delete Old docker container
       run: docker rm -f  projectx-container || true  
     - name: Run Docker Container
